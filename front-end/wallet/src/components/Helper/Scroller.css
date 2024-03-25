@@ -1,0 +1,24 @@
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -ms-overflow-style: none; /* For IE and Edge */
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.card{
+  display: inline-block;
+  /* border: 2px solid black; */
+  height: 400px;
+  width: 100%;
+  padding: 0 10%;
+}
+img{
+  display: inline-block;
+  /* border: 2px solid black; */
+  height: 400px;
+  width: 100%;
+}

@@ -1,0 +1,61 @@
+.table-container {
+  text-align: center;
+  border: solid 1px black;
+  overflow-y: auto; /* Add scrollbar for vertical overflow */
+  max-height: 400px; /* Set maximum height for the container */
+  
+}
+
+.custom-table {
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.custom-table th, .custom-table td {
+  padding: 15px;
+  border: solid 2px black;
+  text-align: center;
+  color: rgb(79, 77, 77);
+  background-color: #f2f2f2;
+}
+
+/* Alternating row colors */
+.custom-table tr:nth-child(even) {
+  background-color: #bf6262;
+}
+
+.custom-table tr:nth-child(odd) {
+  background-color: #b88989;
+}
+
+button {
+  padding: 8px 20px;
+  border-radius: 4px;
+  background-color: rgb(245, 130, 130);
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+  color: #0c0c0c;
+}
+
+/* Media Query for Tablets and Smaller Screens */
+@media (max-width: 768px) {
+  .custom-table {
+    width: 100%;
+  }
+
+  .custom-table th, .custom-table td {
+    padding: 6px;
+  }
+
+  /* Adjust alternating row colors for smaller screens */
+  .custom-table tr:nth-child(even) {
+    background-color: #bf6262; /* Same as even row color */
+  }
+
+  .custom-table tr:nth-child(odd) {
+    background-color: #b88989; /* Same as odd row color */
+  }
+}

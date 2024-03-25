@@ -1,0 +1,40 @@
+.terms-and-conditions {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .terms-and-conditions h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .terms-and-conditions h3 {
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  .terms-and-conditions p {
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  .terms-and-conditions .contact-info {
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+  
+  .terms-and-conditions .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .terms-and-conditions .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
